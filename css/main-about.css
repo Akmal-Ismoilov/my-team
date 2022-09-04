@@ -1,0 +1,84 @@
+/* main-title */
+
+.main-title{
+  padding: 27px 165px 250px 165px;
+}
+.main-title > div{
+  width: 50%;
+  float: left;
+}
+h1 span{
+  color: rgba(246, 126, 126, 1);
+}
+.main-title__subtitle{
+  height: 446px;
+  margin-top: 79px;
+  background-image: url(../img/Group\ 7.svg);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+.main-title__subtitle > span {
+  position: absolute;
+  width: 50px;
+  height: 4px;
+  border-bottom: 4px solid rgba(246, 126, 126, 1);
+}
+.main-title__subtitle p{
+  margin-top: 79px;
+}
+
+/* main-directors */
+
+.main-directors{
+  margin: 100px 165px 0 165px;
+  text-align: center;
+}
+.main-directors__cards {
+  overflow: hidden;
+}
+.main-directors__cards > div{
+  width: 30%;
+  float: left;
+  background-color: rgba(1, 47, 52, 1);
+  padding: 25px 25px 0px 25px;
+  margin-right: 3.3%;
+  margin-bottom: 75px;
+  cursor: pointer;
+}
+.main-directors__card img{
+  width: 96px;
+}
+.director-name{
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #79C8C7;
+  margin-bottom: 0;
+}
+.director-work{
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  font-style: italic;
+  margin-top: 0;
+}
+.plus{
+  position: relative;
+  bottom: -63px;
+  padding-top: 8px;
+  left: 115px;
+  font-size: 35px;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background-color: rgba(246, 126, 126, 1);
+}
+
+/* main-story */
+.main-clients{
+  margin: 100px 165px 0 165px;
+  text-align: center;
+}
+.main-client__logo{
+  margin-top: 50px;
+}
